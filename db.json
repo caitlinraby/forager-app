@@ -1,0 +1,59 @@
+{ "forageables": [
+
+  {
+      "id": 0, 
+      "category": "Wild Plants", 
+      "image": "https://www.eatweeds.co.uk/wp-content/uploads/Dandelion.jpg", 
+      "recipe": "Mix fresh dandelion leaves tossed with olive oil, lemon juice or vinegar, black pepper, and salt. Add tomatoes, carrots, onions, and other fruits, veggies and herbs to taste.", 
+      "scientific": "Taraxacum officinale", 
+      "name": "Dandelion"
+  },
+
+  {
+      "id": 1, 
+      "category": "Wild Plants", 
+      "image": "https://www.eatweeds.co.uk/wp-content/uploads/Urtica-dioica-Stinging-Nettle-F.jpg", 
+      "recipe": "Steep fresh or dry leaves in hot water for 2-5 minutes to make a tea of desired strength.", 
+      "scientific": "Urtica dioica", 
+      "name": "Stinging Nettle"
+  },
+
+  {
+      "id": 2, 
+      "category": "Wild Plants", 
+      "image": "https://www.eatweeds.co.uk/wp-content/uploads/Urtica-dioica-Stinging-Nettle-F.jpg", 
+      "recipe": "Steep fresh or dry leaves in hot water for 2-5 minutes to make a tea of desired strength.", 
+      "scientific": "Urtica dioica", 
+      "name": "Mulberry"
+
+  },
+
+  {
+      "id": 3, 
+      "category": "Wild Mushrooms", 
+      "image": "https://www.eatweeds.co.uk/wp-content/uploads/Urtica-dioica-Stinging-Nettle-F.jpg", 
+      "recipe": "Steep fresh or dry leaves in hot water for 2-5 minutes to make a tea of desired strength.", 
+      "scientific": "Urtica dioica", 
+      "name": "Lobster Mushroom"
+  },
+
+  {
+      "id": 4, 
+      "category": "Wild Mushrooms", 
+      "image": "https://www.eatweeds.co.uk/wp-content/uploads/Urtica-dioica-Stinging-Nettle-F.jpg", 
+      "recipe": "Steep fresh or dry leaves in hot water for 2-5 minutes to make a tea of desired strength.", 
+      "scientific": "Urtica dioica", 
+      "name": "Hen of the Woods"
+  },
+
+  {
+      "id": 5, 
+      "category": "Wild Mushrooms", 
+      "image": "https://www.eatweeds.co.uk/wp-content/uploads/Urtica-dioica-Stinging-Nettle-F.jpg", 
+      "recipe": "Steep fresh or dry leaves in hot water for 2-5 minutes to make a tea of desired strength.", 
+      "scientific": "Urtica dioica", 
+      "name": "Chanterelle"
+  }
+
+]
+}
