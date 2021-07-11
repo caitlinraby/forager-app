@@ -2,8 +2,8 @@ import { useEffect , useState } from "react";
 import { Switch, Route } from "react-router-dom";
 import NavBar from "./NavBar";
 import Home from "./Home";
-import RecipeBook from "./RecipeBook";
 import About from "./About";
+import AddForm from "./AddForm.js"
 import "./App.css"
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
   useEffect(() => {
         fetch("http://localhost:3004/forageables")
         .then (r => r.json())
-        .then (data => setForageables(data))
+        .then (data => setForageables(data.name))
 
     },[]);
 
@@ -25,8 +25,8 @@ function App() {
         <Route path="/about">
           <About />
         </Route>
-        <Route path="/recipebook">
-          <RecipeBook forageables={forageables}/>
+        <Route path="/addform">
+          <AddForm forageables={forageables}/>
         </Route>
         <Route path="/home">
           <Home forageables={forageables}/>
