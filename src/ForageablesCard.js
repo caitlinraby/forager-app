@@ -1,12 +1,14 @@
 function ForageablesCard({name, image, recipe, scientific}) {
-    
+    function handleClick (e){
+        console.log(e)
+    }
     return(
         <div>
             <h3>{name}</h3>
             <h4>{scientific}</h4>
             <p>{recipe}</p>
             <img src={image} alt={name}></img>
-            <button>Save to Recipe Book!</button>
+            <button onClick={handleClick}>Save to Recipe Book!</button>
         </div>
     )
 }

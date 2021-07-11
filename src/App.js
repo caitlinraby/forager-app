@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect , useState } from "react";
 import { Switch, Route } from "react-router-dom";
 import NavBar from "./NavBar";
 import Home from "./Home";
@@ -8,7 +8,15 @@ import "./App.css"
 
 function App() {
   const [page, setPage] = useState("/");
-    
+
+  const [forageables, setForageables] = useState([])
+
+  useEffect(() => {
+        fetch("http://localhost:3004/forageables")
+        .then (r => r.json())
+        .then (data => setForageables(data))
+
+    },[]);
 
   return (
     <div>
@@ -18,10 +26,10 @@ function App() {
           <About />
         </Route>
         <Route path="/recipebook">
-          <RecipeBook />
+          <RecipeBook forageables={forageables}/>
         </Route>
         <Route path="/home">
-          <Home />
+          <Home forageables={forageables}/>
         </Route>
         <Route path="*">
           <h1>404 error: Sorry, page not found!</h1>
