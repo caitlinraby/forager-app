@@ -4,6 +4,7 @@ import NavBar from "./NavBar";
 import Home from "./Home";
 import RecipeBook from "./RecipeBook";
 import About from "./About";
+import "./App.css"
 
 function App() {
   const [page, setPage] = useState("/");

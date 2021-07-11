@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function NavBar ({ onChangePage }) {
     
@@ -9,9 +9,9 @@ function NavBar ({ onChangePage }) {
     
     return (
         <nav>
-            <Link to="/home">Home</Link>
-            <Link to="/about">About</Link>
-            <Link to="/recipebook">Recipe Book</Link>
+            <NavLink to="/home">Home</NavLink>
+            <NavLink to="/about">About</NavLink>
+            <NavLink to="/recipebook">Recipe Book</NavLink>
         </nav>
     );
 }
