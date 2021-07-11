@@ -1,4 +1,4 @@
-function ForageablesCard({name, id, image, recipe, scientific}) {
+function ForageablesCard({name, image, recipe, scientific}) {
     
     return(
         <div>
@@ -6,6 +6,7 @@ function ForageablesCard({name, id, image, recipe, scientific}) {
             <h4>{scientific}</h4>
             <p>{recipe}</p>
             <img src={image} alt={name}></img>
+            <button>Save to Recipe Book!</button>
         </div>
     )
 }
