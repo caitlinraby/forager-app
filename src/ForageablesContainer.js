@@ -24,6 +24,10 @@ function ForageablesContainer() {
           image: newImage
         }; 
         setNewForageable(newForageable);
+        setNewScientific(newScientific);
+        setNewName(newName);
+        setNewRecipe(newRecipe);
+        setNewImage(newImage);
       }
 
     useEffect(() => {
