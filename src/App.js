@@ -7,20 +7,18 @@ import AddForm from "./AddForm.js"
 import "./App.css"
 
 function App() {
-  const [page, setPage] = useState("/");
-
   const [forageables, setForageables] = useState([])
 
   useEffect(() => {
         fetch("http://localhost:3004/forageables")
         .then (r => r.json())
-        .then (data => setForageables(data.name))
+        .then (data => setForageables(data))
 
     },[]);
 
   return (
     <div>
-      <NavBar onChangePage={setPage}/>
+      <NavBar />
       <Switch>
         <Route path="/about">
           <About />

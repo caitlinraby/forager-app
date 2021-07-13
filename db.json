@@ -1,65 +1,53 @@
-{ "forageables": [
-
-  {
-      "id": 0, 
-      "category": "Wild Plants", 
+{
+  "forageables": [
+    {
+      "id": 0,
       "image": "https://www.eatweeds.co.uk/wp-content/uploads/Dandelion.jpg", 
       "recipe": "Salad: Mix fresh dandelion leaves with olive oil, lemon juice or vinegar, black pepper, and salt. Add tomatoes, carrots, onions, and other fruits, veggies and herbs to taste.", 
       "scientific": "Taraxacum officinale", 
-      "name": "Dandelion",
-      "saved": true
-  },
-
-  {
-      "id": 1, 
-      "category": "Wild Plants", 
-      "image": "https://www.eatweeds.co.uk/wp-content/uploads/Urtica-dioica-Stinging-Nettle-F.jpg", 
-      "recipe": "Tea: Steep fresh or dry leaves in hot water for 2-5 minutes to make a tea of desired strength.", 
-      "scientific": "Urtica dioica", 
-      "name": "Stinging Nettle",
-      "saved": false
-  },
-
-  {
-      "id": 2, 
-      "category": "Wild Plants", 
-      "image": "https://www.eatweeds.co.uk/wp-content/uploads/Bramble.jpg", 
-      "recipe": "Jam: Simmer blackberries, lemon juice and water for 1 hour, then strain. Add 1 lb of sugar for every pint of strained liquid. Simmer on low until it has set (thickened). Store in a sterilized glass jar for blackberry jam.", 
-      "scientific": "Rubus fruticosus agg.", 
-      "name": "Blackberry",
-      "saved": false
-
-  },
-
-  {
-      "id": 3, 
-      "category": "Wild Mushrooms", 
-      "image": "https://i.pinimg.com/originals/3b/c4/23/3bc423400b3ac32c47b88847c427b405.jpg", 
-      "recipe": "Lobster Mushroom Roll: Marinate sliced mushrooms in lemon juice, olive oil, salt, pepper, old bay, and dried seaweed. Serve with lettuce and desired condiments on a toasted or steamed roll for a lobster-free lobster roll.", 
-      "scientific": "Hypomyces lactifluorum", 
-      "name": "Lobster Mushroom",
-      "saved": false
-  },
-
-  {
-      "id": 4, 
-      "category": "Wild Mushrooms", 
-      "image": "http://cdn.shopify.com/s/files/1/0058/0252/4783/articles/maitake-grifola-frondosa-primary.jpg?v=1556305768", 
-      "recipe": "Chicken of the woods: Marinate and sautee Maitake mushrooms, aka Hen of the Woods, in your favorite oil with salt, pepper, and herbs to taste. Use in any of your favorite chicken or mushroom dishes.", 
-      "scientific": "Grifola frondosa", 
-      "name": "Hen of the Woods",
-      "saved": false
-  },
-
-  {
-      "id": 5, 
-      "category": "Wild Mushrooms", 
-      "image": "https://media.istockphoto.com/photos/two-yellow-chantarelles-picture-id133823186?k=6&m=133823186&s=612x612&w=0&h=0YkFGTCDMrJwWEA8HIsAOfX9B06RxBcW1pysJhh1ogA=", 
-      "recipe": "Sauteed Wild Mushrooms: Sautee in olive oil with salt, pepper and your favorite herbs.  Eat alone, or add them to your favorite pasta, rice, egg or veggie dishes.", 
-      "scientific": "Cantharellus", 
-      "name": "Chanterelle",
-      "saved": false
-  }
-
-]
+      "name": "Dandelion"
+    },
+    {
+      "id": 1,
+      "image": "https://www.eatweeds.co.uk/wp-content/uploads/Urtica-dioica-Stinging-Nettle-F.jpg",
+      "recipe": "Tea: Steep fresh or dry leaves in hot water for 2-5 minutes to make a tea of desired strength.",
+      "scientific": "Urtica dioica",
+      "name": "Stinging Nettle"
+    },
+    {
+      "id": 2,
+      "image": "https://www.eatweeds.co.uk/wp-content/uploads/Bramble.jpg",
+      "recipe": "Jam: Simmer blackberries, lemon juice and water for 1 hour, then strain. Add 1 lb of sugar for every pint of strained liquid. Simmer on low until it has set (thickened). Store in a sterilized glass jar for blackberry jam.",
+      "scientific": "Rubus fruticosus agg.",
+      "name": "Blackberry"
+    },
+    {
+      "id": 3,
+      "image": "https://i.pinimg.com/originals/3b/c4/23/3bc423400b3ac32c47b88847c427b405.jpg",
+      "recipe": "Lobster Mushroom Roll: Marinate sliced mushrooms in lemon juice, olive oil, salt, pepper, old bay, and dried seaweed. Serve with lettuce and desired condiments on a toasted or steamed roll for a lobster-free lobster roll.",
+      "scientific": "Hypomyces lactifluorum",
+      "name": "Lobster Mushroom"
+    },
+    {
+      "id": 4,
+      "image": "http://cdn.shopify.com/s/files/1/0058/0252/4783/articles/maitake-grifola-frondosa-primary.jpg?v=1556305768",
+      "recipe": ": Marinate and sautee Maitake mushrooms, aka Hen of the Woods, in your favorite oil with salt, pepper, and herbs to taste. Use in any of your favorite chicken or mushroom dishes.",
+      "scientific": "Grifola frondosa",
+      "name": "Hen of the Woods"
+    },
+    {
+      "id": 5,
+      "image": "https://media.istockphoto.com/photos/two-yellow-chantarelles-picture-id133823186?k=6&m=133823186&s=612x612&w=0&h=0YkFGTCDMrJwWEA8HIsAOfX9B06RxBcW1pysJhh1ogA=",
+      "recipe": "Sautee: Sautee in olive oil with salt, pepper and your favorite herbs.  Eat alone, or add them to your favorite pasta, rice, egg or veggie dishes.",
+      "scientific": "Cantharellus",
+      "name": "Chanterelle"
+    },
+    {
+      "name": "Morel",
+      "scientific": "Morchella",
+      "recipe": "Spring Pasta with Morels: Toss linguini with a rich sauce of morels, ramps (or leeks), peas and cream. Top with shaved Parmesan cheese, if you like.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Morchella_conica_1_beentree.jpg/440px-Morchella_conica_1_beentree.jpg",
+      "id": 6
+    }
+  ]
 }

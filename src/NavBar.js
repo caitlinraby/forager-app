@@ -1,12 +1,7 @@
 import { NavLink } from "react-router-dom";
 
 function NavBar ({ onChangePage }) {
-    
-    function handleLinkClick(e) {
-        e.preventDefault()
-        onChangePage(e.target.pathname)
-    }
-    
+
     return (
         
         <nav>

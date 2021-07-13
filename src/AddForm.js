@@ -1,6 +1,32 @@
+import { useState } from 'react';
 
+function AddForm ( {forageables} ) {
+    const [newName, setNewName] = useState("");
+    const [newScientific, setNewScientific] = useState("");
+    const [newRecipe, setNewRecipe] = useState("");
+    const [newImage, setNewImage] = useState("");
 
-function AddForm ( { addForageable, newImage, newName, newScientific, newRecipe, setNewImage, setNewName, setNewScientific, setNewRecipe } ) {
+    
+    
+    function addForageable(e) {
+        e.preventDefault();
+        const newForageable = {
+           
+            name: newName,
+            scientific: newScientific,
+            recipe: newRecipe,
+            image: newImage
+        }; 
+        
+
+        fetch('http://localhost:3004/forageables', 
+            {method: 'POST',
+            headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(newForageable)});
+    }
     
     return (
         <form onSubmit={addForageable}>
