@@ -51,20 +51,6 @@
     },
     {
       "name": "plant",
-      "scientific": "plantus",
-      "recipe": "recipe",
-      "image": "https://www.rareseeds.com/media/catalog/product/cache/4f71e30e38ffe1b90b59b74efe76a4b8/p/e/pepper-chiltepin--lss-dsc_2202.jpg",
-      "id": 10
-    },
-    {
-      "name": "plant",
-      "scientific": "science",
-      "recipe": "recipe",
-      "image": "https://www.rareseeds.com/media/catalog/product/cache/4f71e30e38ffe1b90b59b74efe76a4b8/p/e/pepper-chiltepin--lss-dsc_2202.jpg",
-      "id": 11
-    },
-    {
-      "name": "plant",
       "scientific": "science",
       "recipe": "recipe",
       "image": "https://www.rareseeds.com/media/catalog/product/cache/4f71e30e38ffe1b90b59b74efe76a4b8/p/e/pepper-chiltepin--lss-dsc_2202.jpg",
@@ -85,32 +71,11 @@
       "id": 14
     },
     {
-      "name": "plant",
-      "scientific": "science",
-      "recipe": "recipe",
-      "image": "https://www.rareseeds.com/media/catalog/product/cache/4f71e30e38ffe1b90b59b74efe76a4b8/p/e/pepper-chiltepin--lss-dsc_2202.jpg",
+      "name": "will",
+      "scientific": "this",
+      "recipe": "work",
+      "image": "URL",
       "id": 15
-    },
-    {
-      "name": "plant",
-      "scientific": "science",
-      "recipe": "recipe",
-      "image": "https://www.rareseeds.com/media/catalog/product/cache/4f71e30e38ffe1b90b59b74efe76a4b8/p/e/pepper-chiltepin--lss-dsc_2202.jpg",
-      "id": 16
-    },
-    {
-      "name": "plant",
-      "scientific": "science",
-      "recipe": "recipe",
-      "image": "https://www.rareseeds.com/media/catalog/product/cache/4f71e30e38ffe1b90b59b74efe76a4b8/p/e/pepper-chiltepin--lss-dsc_2202.jpg",
-      "id": 17
-    },
-    {
-      "name": "plant",
-      "scientific": "science",
-      "recipe": "recipe",
-      "image": "https://www.rareseeds.com/media/catalog/product/cache/4f71e30e38ffe1b90b59b74efe76a4b8/p/e/pepper-chiltepin--lss-dsc_2202.jpg",
-      "id": 18
     }
   ]
 }

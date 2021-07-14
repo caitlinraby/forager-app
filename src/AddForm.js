@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useHistory } from "react-router-dom";
 
 
 function AddForm ( {forageables} ) {
@@ -6,10 +7,12 @@ function AddForm ( {forageables} ) {
     const [newScientific, setNewScientific] = useState("");
     const [newRecipe, setNewRecipe] = useState("");
     const [newImage, setNewImage] = useState("");
+    let history = useHistory();
 
     
     
     function addForageable(e) {
+      
         e.preventDefault();
         const newForageable = {
            
@@ -28,9 +31,11 @@ function AddForm ( {forageables} ) {
             },
             body: JSON.stringify(newForageable)});
 
-        
             
+            history.push('/home');
+                
     }
+    
     
     return (
         <form onSubmit={addForageable}>

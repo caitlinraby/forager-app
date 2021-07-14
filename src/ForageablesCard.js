@@ -1,4 +1,4 @@
-import { useHistory } from "react-router-dom";
+
 
 function ForageablesCard({name, image, recipe, scientific, id, status, setStatus}) {
     
@@ -14,8 +14,6 @@ function ForageablesCard({name, image, recipe, scientific, id, status, setStatus
         
         }
 
-        let history = useHistory();
-        history.push('/home');
         
     return(
         <div>
