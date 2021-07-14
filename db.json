@@ -2,9 +2,9 @@
   "forageables": [
     {
       "id": 0,
-      "image": "https://www.eatweeds.co.uk/wp-content/uploads/Dandelion.jpg", 
-      "recipe": "Salad: Mix fresh dandelion leaves with olive oil, lemon juice or vinegar, black pepper, and salt. Add tomatoes, carrots, onions, and other fruits, veggies and herbs to taste.", 
-      "scientific": "Taraxacum officinale", 
+      "image": "https://www.eatweeds.co.uk/wp-content/uploads/Dandelion.jpg",
+      "recipe": "Salad: Mix fresh dandelion leaves with olive oil, lemon juice or vinegar, black pepper, and salt. Add tomatoes, carrots, onions, and other fruits, veggies and herbs to taste.",
+      "scientific": "Taraxacum officinale",
       "name": "Dandelion"
     },
     {
@@ -24,7 +24,7 @@
     {
       "id": 3,
       "image": "https://i.pinimg.com/originals/3b/c4/23/3bc423400b3ac32c47b88847c427b405.jpg",
-      "recipe": "Lobster Mushroom Roll: Marinate sliced mushrooms in lemon juice, olive oil, salt, pepper, old bay, and dried seaweed. Serve with lettuce and desired condiments on a toasted or steamed roll for a lobster-free lobster roll.",
+      "recipe": "Roll: Marinate sliced mushrooms in lemon juice, olive oil, salt, pepper, old bay, and dried seaweed. Serve with lettuce and desired condiments on a toasted or steamed roll for a lobster-free lobster roll.",
       "scientific": "Hypomyces lactifluorum",
       "name": "Lobster Mushroom"
     },
@@ -45,9 +45,72 @@
     {
       "name": "Morel",
       "scientific": "Morchella",
-      "recipe": "Spring Pasta with Morels: Toss linguini with a rich sauce of morels, ramps (or leeks), peas and cream. Top with shaved Parmesan cheese, if you like.",
+      "recipe": "Spring Pasta: Toss linguini with a rich sauce of sauteed morels, ramps (or leeks), peas and cream. Top with shaved Parmesan cheese, if you like.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Morchella_conica_1_beentree.jpg/440px-Morchella_conica_1_beentree.jpg",
       "id": 6
+    },
+    {
+      "name": "plant",
+      "scientific": "plantus",
+      "recipe": "recipe",
+      "image": "https://www.rareseeds.com/media/catalog/product/cache/4f71e30e38ffe1b90b59b74efe76a4b8/p/e/pepper-chiltepin--lss-dsc_2202.jpg",
+      "id": 10
+    },
+    {
+      "name": "plant",
+      "scientific": "science",
+      "recipe": "recipe",
+      "image": "https://www.rareseeds.com/media/catalog/product/cache/4f71e30e38ffe1b90b59b74efe76a4b8/p/e/pepper-chiltepin--lss-dsc_2202.jpg",
+      "id": 11
+    },
+    {
+      "name": "plant",
+      "scientific": "science",
+      "recipe": "recipe",
+      "image": "https://www.rareseeds.com/media/catalog/product/cache/4f71e30e38ffe1b90b59b74efe76a4b8/p/e/pepper-chiltepin--lss-dsc_2202.jpg",
+      "id": 12
+    },
+    {
+      "name": "plant",
+      "scientific": "science",
+      "recipe": "recipe",
+      "image": "https://www.rareseeds.com/media/catalog/product/cache/4f71e30e38ffe1b90b59b74efe76a4b8/p/e/pepper-chiltepin--lss-dsc_2202.jpg",
+      "id": 13
+    },
+    {
+      "name": "plant",
+      "scientific": "science",
+      "recipe": "recipe",
+      "image": "https://www.rareseeds.com/media/catalog/product/cache/4f71e30e38ffe1b90b59b74efe76a4b8/p/e/pepper-chiltepin--lss-dsc_2202.jpg",
+      "id": 14
+    },
+    {
+      "name": "plant",
+      "scientific": "science",
+      "recipe": "recipe",
+      "image": "https://www.rareseeds.com/media/catalog/product/cache/4f71e30e38ffe1b90b59b74efe76a4b8/p/e/pepper-chiltepin--lss-dsc_2202.jpg",
+      "id": 15
+    },
+    {
+      "name": "plant",
+      "scientific": "science",
+      "recipe": "recipe",
+      "image": "https://www.rareseeds.com/media/catalog/product/cache/4f71e30e38ffe1b90b59b74efe76a4b8/p/e/pepper-chiltepin--lss-dsc_2202.jpg",
+      "id": 16
+    },
+    {
+      "name": "plant",
+      "scientific": "science",
+      "recipe": "recipe",
+      "image": "https://www.rareseeds.com/media/catalog/product/cache/4f71e30e38ffe1b90b59b74efe76a4b8/p/e/pepper-chiltepin--lss-dsc_2202.jpg",
+      "id": 17
+    },
+    {
+      "name": "plant",
+      "scientific": "science",
+      "recipe": "recipe",
+      "image": "https://www.rareseeds.com/media/catalog/product/cache/4f71e30e38ffe1b90b59b74efe76a4b8/p/e/pepper-chiltepin--lss-dsc_2202.jpg",
+      "id": 18
     }
   ]
 }

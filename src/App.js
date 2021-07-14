@@ -14,7 +14,7 @@ function App() {
         .then (r => r.json())
         .then (data => setForageables(data))
 
-    },[]);
+    },[forageables.length]);
 
   return (
     <div>

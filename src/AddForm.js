@@ -1,5 +1,6 @@
 import { useState } from 'react';
 
+
 function AddForm ( {forageables} ) {
     const [newName, setNewName] = useState("");
     const [newScientific, setNewScientific] = useState("");
@@ -26,6 +27,9 @@ function AddForm ( {forageables} ) {
             'Content-Type': 'application/json'
             },
             body: JSON.stringify(newForageable)});
+
+        
+            
     }
     
     return (

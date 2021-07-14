@@ -1,11 +1,21 @@
-function ForageablesCard({name, image, recipe, scientific}) {
+import { useHistory } from "react-router-dom";
+
+function ForageablesCard({name, image, recipe, scientific, id, status, setStatus}) {
+    
+        
     function handleClick (){
-        // fetch("http://localhost:3004/forageables/", {
-        //     method: "Delete",
-        // })
-        // .then (r => r.json())
-        // .then (data => console.log(data))
+        
+
+        fetch(`http://localhost:3004/forageables/` + id, {
+            method: "Delete",
+        })
+        .then (r => r.json())
+        .then (data => console.log(data));
+        
         }
+
+        let history = useHistory();
+        history.push('/home');
         
     return(
         <div>

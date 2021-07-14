@@ -7,6 +7,9 @@ function ForageablesContainer() {
     const [forageables, setForageables] = useState([])
     
 
+    
+    
+
 
 
     useEffect(() => {
@@ -21,7 +24,7 @@ function ForageablesContainer() {
     return (
         <div>
 
-            <ForageablesCollection forageables={forageables}/>
+            <ForageablesCollection onChange={setForageables} forageables={forageables}/>
            
         
         </div>
