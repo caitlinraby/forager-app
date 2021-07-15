@@ -1,7 +1,8 @@
 import ForageablesCard from "./ForageablesCard";
 
 function ForageablesCollection ({forageables}) {
-    console.log(forageables)
+     
+
     return(
         <div>
 

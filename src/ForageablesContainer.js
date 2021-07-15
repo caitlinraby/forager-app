@@ -19,7 +19,7 @@ function ForageablesContainer() {
 
     },[]);
     
-  
+    
       
     return (
         <div>

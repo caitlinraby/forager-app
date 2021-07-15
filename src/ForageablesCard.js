@@ -1,10 +1,7 @@
-
-
-function ForageablesCard({name, image, recipe, scientific, id, status, setStatus}) {
+function ForageablesCard({name, image, recipe, scientific, id}) {
     
         
     function handleClick (){
-        
 
         fetch(`http://localhost:3004/forageables/` + id, {
             method: "Delete",
@@ -13,7 +10,7 @@ function ForageablesCard({name, image, recipe, scientific, id, status, setStatus
         .then (data => console.log(data));
         
         }
-
+    
         
     return(
         <div>
