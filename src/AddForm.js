@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useHistory } from "react-router-dom";
 
 
-function AddForm ( {forageables} ) {
+function AddForm ( {setForageables} ) {
     const [newName, setNewName] = useState("");
     const [newScientific, setNewScientific] = useState("");
     const [newRecipe, setNewRecipe] = useState("");
@@ -31,8 +31,13 @@ function AddForm ( {forageables} ) {
             },
             body: JSON.stringify(newForageable)});
 
+            fetch("http://localhost:3004/forageables")
+                .then (r => r.json())
+                .then (data => setForageables(data))
             
             history.push('/home');
+        
+            
                 
     }
     

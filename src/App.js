@@ -24,7 +24,7 @@ function App() {
           <About />
         </Route>
         <Route path="/addform">
-          <AddForm forageables={forageables}/>
+          <AddForm forageables={forageables} setForageables={setForageables}/>
         </Route>
         <Route path="/home">
           <Home forageables={forageables}/>

@@ -4,7 +4,8 @@ import ForageablesCollection from "./FCollection.js";
 
 
 function ForageablesContainer() {
-    const [forageables, setForageables] = useState([])
+    const [forageables, setForageables] = useState([]);
+    const [forageablesCount, setForageablesCount] = useState(-1);
     
 
     
@@ -13,18 +14,21 @@ function ForageablesContainer() {
 
 
     useEffect(() => {
+    if (forageables.length === forageablesCount) return;
+    
         fetch("http://localhost:3004/forageables")
         .then (r => r.json())
         .then (data => setForageables(data))
+        setForageablesCount(forageables.length);
 
-    },[]);
+    },[forageables, forageablesCount]);
     
     
       
     return (
         <div>
 
-            <ForageablesCollection onChange={setForageables} forageables={forageables}/>
+            <ForageablesCollection onChange={setForageables} setForageables={setForageables} forageables={forageables}/>
            
         
         </div>

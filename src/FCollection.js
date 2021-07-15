@@ -1,12 +1,12 @@
 import ForageablesCard from "./ForageablesCard";
 
-function ForageablesCollection ({forageables}) {
+function ForageablesCollection ({setForageables,forageables}) {
      
 
     return(
         <div>
 
-            {forageables.map(f => <ForageablesCard key={f.id} id={f.id} forageables={f} image={f.image} name={f.name} scientific={f.scientific} recipe={f.recipe}/>)}
+            {forageables.map(f => <ForageablesCard setForageables={setForageables} key={f.id} id={f.id} image={f.image} name={f.name} scientific={f.scientific} recipe={f.recipe}/>)}
             
         </div>
     )
@@ -14,3 +14,5 @@ function ForageablesCollection ({forageables}) {
 }
 
 export default ForageablesCollection;
+
+//destructuring !!
