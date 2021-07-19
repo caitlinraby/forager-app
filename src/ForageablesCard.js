@@ -4,7 +4,7 @@ import "./ForageablesCard.css";
 
 
 
-function ForageablesCard({setForageablesCount, forageablesCount, name, image, recipe, scientific, id, forageables, setForageables}) {
+function ForageablesCard({setForageablesCount, name, image, recipe, scientific, id, forageables}) {
     
     function handleClick (){
 

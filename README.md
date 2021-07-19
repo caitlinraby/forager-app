@@ -2,8 +2,9 @@
 
 The Forager's Recipe Book App allows users to interact with a collection of recipes for edible wild mushrooms and plants. They may use the form to add a new item and recipe to the collection, or they may use the delete button to remove an item from the collection.
 
-A link to my related blog post:
-A link to the video-walk-thg
+A link to my Phase 2 Blog Post: https://caitlinraby.medium.com/intro-to-using-the-state-hook-in-react-7432b8ebdfe8
+
+A link to the video walk-through: https://drive.google.com/file/d/1POArcl0IjZjNwSgDPnBIrqmBwZeYqnIV/view?usp=sharing
 
 ## Getting Started with Create React App
 

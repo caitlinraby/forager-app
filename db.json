@@ -50,18 +50,11 @@
       "id": 6
     },
     {
-      "name": "1 Cute Plant",
-      "scientific": "cutus plantus",
-      "recipe": "PIE",
-      "image": "https://i.pinimg.com/736x/e1/77/3a/e1773a423d85a263e99a76ba2bcaf78a.jpg",
+      "name": "Wild Onion",
+      "scientific": "allium",
+      "recipe": "Pickles: Pickle wild onions in a brine of vinegar, sugar, water, and your favorite aromatic herbs and spices.",
+      "image": "https://honest-food.net/wp-content/uploads/2014/05/Sierra-onions-600px.jpg",
       "id": 7
-    },
-    {
-      "name": "2 Nother Cute Shroom",
-      "scientific": "shroomus cutus",
-      "recipe": "Mushroom Salad!",
-      "image": "https://image.shutterstock.com/image-vector/cartoon-red-mushrooms-grass-on-260nw-454168777.jpg",
-      "id": 10
     }
   ]
 }
