@@ -1,0 +1,17 @@
+.navigation-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+  }
+  
+  .navigation-items:medium {
+    background-color: white;
+  }
+
+  #header {
+      text-align: center;
+      font-size: 50px;
+  }

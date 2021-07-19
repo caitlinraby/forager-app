@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useHistory } from "react-router-dom";
-
+import "./AddForm.css";
 
 function AddForm ( {setForageables} ) {
     const [newName, setNewName] = useState("");
@@ -43,25 +43,28 @@ function AddForm ( {setForageables} ) {
     
     
     return (
-        <form onSubmit={addForageable}>
-            <label>
-                Name:
-                <input type="text" name="name" value={newName} onChange={(e) => setNewName(e.target.value)}/>
-            </label>
-            <label>
-                Scientific Name:
-                <input type="text" name="scientific" value={newScientific} onChange={(e) => setNewScientific(e.target.value)}/>
-            </label>
-            <label>
-                Recipe:
-                <input type="text" name="recipe" value={newRecipe} onChange={(e) => setNewRecipe(e.target.value)}/>
-            </label>
-            <label>
-                Image URL:
-                <input type="text" name="image" value={newImage} onChange={(e) => setNewImage(e.target.value)}/>
-            </label>
-            <input type="submit" value="Add to Recipe Book" />
-        </form>
+        <div>
+            <h3>Add more forageable plants and mushrooms to the collection in your Recipe Book by submitting the relevant information and image URL in the form below!</h3>
+            <form onSubmit={addForageable}>
+                <label>
+                    Name:
+                    <input type="text" name="name" value={newName} onChange={(e) => setNewName(e.target.value)}/>
+                </label>
+                <label>
+                    Scientific Name:
+                    <input type="text" name="scientific" value={newScientific} onChange={(e) => setNewScientific(e.target.value)}/>
+                </label>
+                <label>
+                    Recipe:
+                    <input type="text" name="recipe" value={newRecipe} onChange={(e) => setNewRecipe(e.target.value)}/>
+                </label>
+                <label>
+                    Image URL:
+                    <input type="text" name="image" value={newImage} onChange={(e) => setNewImage(e.target.value)}/>
+                </label>
+                <input type="submit" id="submit-button" value="Add to Recipe Book" />
+            </form>
+        </div>
     )
 }
 

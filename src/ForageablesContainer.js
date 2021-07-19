@@ -15,12 +15,12 @@ function ForageablesContainer() {
 
     useEffect(() => {
     if (forageables.length === forageablesCount) return;
-    
+        
         fetch("http://localhost:3004/forageables")
         .then (r => r.json())
         .then (data => setForageables(data))
         setForageablesCount(forageables.length);
-
+    
     },[forageables, forageablesCount]);
     
     
@@ -28,7 +28,7 @@ function ForageablesContainer() {
     return (
         <div>
 
-            <ForageablesCollection onChange={setForageables} setForageables={setForageables} forageables={forageables}/>
+            <ForageablesCollection onChange={setForageables} setForageables={setForageables} forageables={forageables} forageablesCount={forageablesCount} setForageablesCount={setForageablesCount}  />
            
         
         </div>
