@@ -6,6 +6,9 @@ import About from "./About";
 import AddForm from "./AddForm.js"
 import "./App.css"
 
+//set forageables in state here since App is at the top of our hierarchy, so collection and addform have access
+//useEffect to fetch forageables and setForageables anytime forageables.length changes
+
 function App() {
   const [forageables, setForageables] = useState([])
 
@@ -13,8 +16,11 @@ function App() {
         fetch("http://localhost:3004/forageables")
         .then (r => r.json())
         .then (data => setForageables(data))
-
     },[forageables.length]);
+
+//return NavBar =>
+//routes with switch hook
+//return AddForm
 
   return (
     <div>
@@ -36,5 +42,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
